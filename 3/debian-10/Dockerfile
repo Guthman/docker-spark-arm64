@@ -2,7 +2,7 @@ FROM docker.io/bitnami/minideb:buster
 LABEL maintainer "Bitnami <containers@bitnami.com>"
 
 ENV HOME="/" \
-    OS_ARCH="amd64" \
+    OS_ARCH="arm64" \
     OS_FLAVOUR="debian-10" \
     OS_NAME="linux" \
     PATH="/opt/bitnami/python/bin:/opt/bitnami/java/bin:/opt/bitnami/spark/bin:/opt/bitnami/spark/sbin:/opt/bitnami/common/bin:$PATH"
